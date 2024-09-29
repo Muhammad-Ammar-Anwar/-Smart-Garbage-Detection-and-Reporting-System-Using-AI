@@ -23,11 +23,26 @@ This project utilizes a machine learning model trained on Roboflow to detect and
    git clone https://github.com/Muhammad-Ammar-Anwar/-Smart-Garbage-Detection-and-Reporting-System-Using-AI.git
    cd Garbage-Detection-System
 
-## Install the required dependencies:
-pip install opencv-python smtplib supervision
-Set up your API key and email credentials in the code:
 
-## Setting up Environment Variables
+## Dependencies
+
+To run this project, you need to install the following Python libraries:
+
+- `opencv-python`: For real-time computer vision and image processing.
+- `smtplib`: For sending emails using SMTP.
+- `supervision`: For annotation and inference management.
+- `uuid`: For generating unique filenames for images.
+- `roboflow`: Roboflow API for object detection model inference.
+- `dotenv`: For loading environment variables from a `.env` file.
+
+You can install the required dependencies using the following command:
+
+```bash
+pip install opencv-python smtplib supervision python-dotenv
+```
+## Set up your API key and email credentials in the code:
+
+### Setting up Environment Variables
 1. Create a `.env` file in your project directory.
 2. Add the following variables to the `.env` file:
    api_key = "Your Roboflow API Key" sender_email = "your-email@example.com" receiver_email = "receiver-email@example.com" password = "your-email-password"
