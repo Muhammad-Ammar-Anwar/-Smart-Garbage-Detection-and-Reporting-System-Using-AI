@@ -2,6 +2,8 @@
 
 This project utilizes a machine learning model trained on Roboflow to detect and capture images of individuals throwing garbage on the ground. It identifies both the person and trash in real-time, saving images locally. After collecting 8 images, it automatically sends an email with the captured images for review. The system integrates OpenCV for image processing and SMTP for email notifications.
 
+![Screenshot of the Garbage Detection System](https://github.com/Muhammad-Ammar-Anwar/-Smart-Garbage-Detection-and-Reporting-System-Using-AI/blob/main/Screenshot%202024-10-02%20005010.png)
+
 ## Features
 - Real-time detection of a person and trash using a Roboflow-trained model.
 - Captures and saves images locally when both a person and trash are detected.
